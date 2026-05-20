@@ -186,7 +186,7 @@ with st.sidebar:
         db = firestore.client()
 
         st.success(
-            "✅ Firebase Connected (AWS Secrets)"
+            "✅ Firebase Connected"
         )
 
         is_initialized = True
